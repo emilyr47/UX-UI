@@ -10,5 +10,57 @@ body {
 
 .first-words {
     color: purple;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
 
 }
+
+#arrow {
+    float: center;
+    color: purple;
+}
+
+#nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* nav links */
+  #nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the nav with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  p {
+      padding-left: 5px;
+      padding-right: 5px;
+  }

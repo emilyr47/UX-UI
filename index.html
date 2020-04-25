@@ -1,28 +1,172 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Web & Human Interaction</title>
-<!--CSS-->
-<link rel="stylesheet" type="text/css" href="css/styles.css"> 
-<!--JavaScript-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script src="javascript/function.js"></script>
+<head>
+  <title>Web & Human Interaction</title>
+
+  <!--Boostrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/0a35ea8b6b.js" crossorigin="anonymous"></script>
+
+  <!--JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="javascript/function.js"></script>
 
 
 </head>
+
 <body>
-       <script>  document.body.className = 'fade';</script> 
+  <script>  document.body.className = 'fade';</script>
+  <section>
+    <div id="nav">
+      <a href="#home" onclick="scrollTo(home)">Home</a> <a href="#about" onclick="scrollTo(about)">About</a> <a href="#visibility" onclick="scrollTo(visibility)">Visibility</a> <a href="#realWorld" onclick="scrollTo(realWorld)">Real World</a>  <a href="#freedom" onclick="scrollTo(freedom)">Control & Freedom</a>  <a href="#consistency" onclick="scrollTo(consistency)">Consistency</a>  <a href="#errorPrev" onclick="scrollTo(errorPrev)">Error Prevention</a>  <a href="#flexibility" onclick="scrollTo(flexibility)">Flexibility</a> 
+      <a href="#aesthetic" onclick="scrollTo(aesthetic)">Aesthetic</a> <a href="#rd" onclick="scrollTo(rd)">Recognize & Diagnose</a>  <a href="#doc" onclick="scrollTo(doc)">Documentation</a>  <a href="#conclusion" onclick="scrollTo(conclusion)">Conclusion</a>
 
-<div class="first-words">
-<h1>Hi, I'm The Web.</h1>
-<p>Thanks for interacting with me.</p>
-</div>
+    </div>
+  </section>
+  <!--Start First Words Section-->
+  <section>
+    <div class="first-words" name="home">
+      <h1>Hi, I'm The Web.</h1>
+      <p>Thanks for interacting with me.</p>
+    </div>
+  </section>
+  <!--End First Words Section-->
+  <a href="#about" id="arrow" onclick="scrollTo(about)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start About Section-->
+  <section>
+    <div class="about">
+      <h3><a name="about">About</a></div></h3>
+    <p>Welcome to my Final Digital Project for CI 4312. Throughout this semester, I have taken a special interest in
+      usability, and, specifically how human factors impact and interact with the web.
+      This project is centered around the <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">ten
+        heuristics</a> of user interface (UI) design, written and developed by
+      <a href="https://www.nngroup.com/people/jakob-nielsen/">Jakob Nielsen. </a> Each of these ten heuristics plays an
+      important role in ensuring accessibility and usability on the web. In this project, I will demonstrate each of
+      these ten heuristics
+      by explaining them and then providing applicable examples of how they can be exercised in UI design and can
+      imporve user experience (UX).
+    </p>
+    </div>
+  </section>
+  <!--End About Section-->
+  <a href="#visibility" id="arrow" onclick="scrollTo(visibility)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Visibility Section-->
+  <section>
+    <div class="visibility">
+     <h3> <a name="visibility">Visibility</a></div></h3>
+    </div>
+  </section>
+  <!--End Visibility Section-->
 
-<script>
-        document.addEventListener("DOMContentLoaded", function(e) {
-          document.body.className = '';
-        });
-      </script>
+  <a href="#realWorld" id="arrow" onclick="scrollTo(realWorld)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Real World Section-->
+  <section>
+    <div class="realWorld">
+     <h3> <a name="realWorld">Real World</a></div></h3>
+    </div>
+  </section>
+  <!--End Real World Section-->
+
+  <a href="#freedom" id="arrow" onclick="scrollTo(freedom)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Freedom Section-->
+  <section>
+    <div class="freedom">
+    <h3>  <a name="freedom">Control & Freedom</a></div> </h3>
+    </div>
+  </section>
+  <!--End Freedom Section-->
+
+  <a href="#consistency" id="arrow" onclick="scrollTo(consistency)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Consistency Section-->
+  <section>
+    <div class="consistency">
+   <h3>   <a name="consistency">Consistency</a></div> </h3>
+    </div>
+  </section>
+  <!--End Consistency Section-->
+
+  <a href="#errorPrev" id="arrow" onclick="scrollTo(errorPrev)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Error Prevention Section-->
+  <section>
+    <div class="errorPrev">
+  <h3>    <a name="errorPrev">Error Prevention</a></div> </h3>
+    </div>
+  </section>
+  <!--End Error Prevention Section-->
+
+  <a href="#flexibility" id="arrow" onclick="scrollTo(flexibility)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Flexibility Section-->
+  <section>
+    <div class="flexibility">
+  <h3>    <a name="flexibility">Flexibility</a></div> </h3>
+    </div>
+  </section>
+  <!--End Flexibility Section-->
+
+  <a href="#aesthetic" id="arrow" onclick="scrollTo(aesthetic)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Aesthetic Section-->
+  <section>
+    <div class="aesthetic">
+  <h3>  <a name="aesthetic">Aesthetic</a></div> </h3>
+    </div>
+  </section>
+  <!--End Aesthetic Section-->
+
+  <a href="#rd" id="arrow" onclick="scrollTo(rd)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Recognize & Diagnose Section-->
+  <section>
+    <div class="rd">
+  <h3>    <a name="rd">Recognize & Diagnose</a></div> </h3>
+    </div>
+  </section>
+  <!--End Recognize & Diagnose Section-->
+
+  <a href="#doc" id="arrow" onclick="scrollTo(doc)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Documentation Section-->
+  <section>
+    <div class="doc">
+  <h3>    <a name="doc">Documentation</a></div> </h3>
+    </div>
+  </section>
+  <!--End Documentation Section-->
+
+  <a href="#conclusion" id="arrow" onclick="scrollTo(conclusion)"><i class="fas fa-arrow-circle-down fa-2xl"></i></a>
+  <!--Start Conclusion Section-->
+  <section>
+    <div class="conclusion">
+  <h3>   <a name="conclusion">Conclusion</a></div> </h3>
+    </div>
+  </section>
+  <!--End Conclusion Section-->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (e) {
+      document.body.className = '';
+    });
+  </script>
+
+  <!--Boostrap-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
