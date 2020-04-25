@@ -75,6 +75,11 @@ body {
     border-color: white;
   }
 
+  #freedomCard {
+    border-color: lightgray;
+
+  }
+
   #badButton {
       background-color: #007bff;
       border-radius: .25rem;
@@ -89,4 +94,15 @@ body {
     cursor: default;
     text-decoration: none;
     background-color: #007bff;
+  }
+
+  #control {
+    width: 100%;
+
+  }
+
+  #badControl {
+    width: 100%;
+
+
   }

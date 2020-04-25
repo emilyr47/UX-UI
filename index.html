@@ -70,16 +70,16 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Button #1: No Visibility or Feedback</h5>
-              <p class="card-text">
-                <ul>
-                  <li>No change in cursor on hover</li>
-                  <li>No color change in button on hover</li>
-                  <li>No text indicating where the button is going or if it is going to where the user wants</li>
-                  <li>No link appears on hover</li>
-
-                </ul>
-              </p>
               <button id="badButton">Click Me!</button>
+              <p class="card-text">
+                  <ul>
+                    <li>No change in cursor on hover</li>
+                    <li>No color change in button on hover</li>
+                    <li>No text indicating where the button is going or if it is going to where the user wants</li>
+                    <li>No link appears on hover</li>
+  
+                  </ul>
+                </p>
            <br> </div>
           </div>
         </div>
@@ -87,6 +87,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Button #2: Good Visibility & Feedback</h5>
+              <a href="#" class="btn btn-primary">Read More</a>
               <p class="card-text">
                   <ul>
                       <li>Cursor changes to a pointer/hand on hover</li>
@@ -96,7 +97,6 @@
 
                     </ul>
               </p>
-              <a href="#" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -110,6 +110,10 @@
   <a name="realWorld"><section></a><br><br>
     <div class="realWorld">
      <h3>Real World</div></h3>
+     <p>Websites should always use plain language and "real world" terms.  Users should be familiar with the language on a website and should not be required to learn
+       technical jargon in order to navigate it.  While a website may feature technical terms or concepts, (e.g. online medical journals, privacy policies, terms and aggreements, etc.)
+       this is just the website's content.  These technical terms should not also be used in navigation, functionality, and usability.  
+     </p>
     </div>
   </section>
   <!--End Real World Section-->
@@ -119,6 +123,55 @@
   <a name="freedom"><section></a><br><br>
     <div class="freedom">
     <h3> Control & Freedom</div> </h3>
+    <p>Users may often end up in areas of a website by mistake.  They may click a link on accident, open a new window and wish to exit, or just wish to return to a previous page.  While most web browsers provide a back button or a default escape route, UX/UI designers
+      should never rely on this.  First of all, while your code is internal and is great at communicatinhg with itself, a web browser is an external application that simply opens your website.  Because of this, a web browser may not always communication with your website perfectly
+      and therefore, using the browser's back button may not get the user to where they want to go.  Second, relying on a web browser to provide a user with control also requires the user to know their way around the web browser, which is not always a guarantee.  Additionally, all 
+      web browsers behave slightly differently.  So, even if your user knows how to use Google Chrome well, they may not be as familiar with Safari and that could be the only browser they have on their phone when they try to access your site. Finally, you also never know when a web browser
+      is going under maintenance, changing their functionality, or eliminating or altering specific features.  Having no control over this means you also have no control for your users if Internet Explorer decides to remove their back button.
+
+      The example below shows an example of poor user control and freedom versus great user control and freedom.
+    </p>
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card" id="freedomCard">
+            <div class="card-body">
+              <h5 class="card-title">Website #1: No Control or Freedom</h5><br>
+                  <div class="alert alert-warning" role="alert" id="badControl">
+                      <strong>Hello!</strong> Sign up for this free offer.
+                      <button type="button" class="close" data-dismiss="alert">
+                      </button>
+                    </div>
+                    <p class="card-text">
+                      <ul>
+                        <li>No way to return to previous pages</li>
+                        <li>No way to exit the pop-up</li>
+                      </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card" id="freedomCard">
+            <div class="card-body">
+              <h5 class="card-title">Website #2: Good Control & Freedom</h5>
+                <a href="#freedom">home</a> / <a href="#freedom">deals & specials</a> / <a href="#freedom">current deals</a><br>
+                  <div class="alert alert-warning alert-dismissible fade show" id="control" role="alert">
+                      <strong>Hello!</strong> Sign up for this free offer.
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <p class="card-text">
+                        <ul>
+                          <li>Provides breadcrumbs to return to previous pages</li>
+                          <li>Clear way to exit the pop-up</li>
+                        </ul>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
   <!--End Freedom Section-->
