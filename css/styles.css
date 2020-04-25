@@ -23,9 +23,12 @@ body {
 
 #nav {
     overflow: hidden;
+    background-color: grey;
+    color: white;
     position: fixed;
     top: 0;
     width: 100%;
+    margin-bottom: 30px;
   }
   
   /* nav links */
@@ -35,6 +38,7 @@ body {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    color: white;
     
   }
   
