@@ -80,6 +80,7 @@ body {
 
   #freedomCard {
     border-color: lightgray;
+    
 
   }
 
@@ -145,4 +146,27 @@ display: inline-block;
 
   #badConsis, #goodConsis{
     display: inline-block;
+      }
+
+      #goodErr, #badErr {
+        display: inline-block;
+      }
+
+      #errMessage {
+        background-color: rgba(236, 122, 122, 0.473);
+        color: rgb(46, 45, 45);
+        border-color: rgba(236, 122, 122, 0.473);
+        display: none;
+      }
+
+      #goodVis {
+        color: white;
+      }
+
+      #badlogin {
+        color: white;
+      }
+
+      #login {
+        color: white;
       }

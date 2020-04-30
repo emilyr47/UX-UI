@@ -108,7 +108,7 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Button #2: Good Visibility & Feedback</h5>
-          <a href="#" class="btn btn-primary">Shop Our Collection</a>
+          <a class="btn btn-primary" id="goodVis">Shop Our Collection</a>
           <p class="card-text">
             <ul>
               <li>Cursor changes to a pointer/hand on hover</li>
@@ -235,99 +235,103 @@
     UX/UI designers can keep their designs consistent and prevent confusion for their users.
   </p>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-lg-6">
       <div class="card" id="badConsis">
         <div class="card-body">
           <h5 class="card-title">Website #1: Poor Consistency</h5>
           <p class="card-text">
-              <div class="page1">
-                  <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
-                    <p class="miniText">Welcome to our website!<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. </p><br>
-                    <button class="quiz">Take Our Quiz</button><br></div>
-                    <div class="page2">
-                    <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
-                    <p class="miniText">Take our quiz. Please submit when you're done.<br>
-                      <br>
-                      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label><br>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
-      <input type="radio" id="other" name="gender" value="other">
-      <label for="other">Other</label><br><br>
-      <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
-      <label for="vehicle1"> I have a bike</label><br>
-      <input type="radio" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> I have a car</label><br>
-      <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
-      <label for="vehicle3"> I have a boat</label><br>
-      <button class="quiz">Submit</button><br></div>
-      
-      
-                  </div>
-
-              
-            <ul>
-              <li>Main menu design and layout changes from page to page</li>
-              <li>Terms and options within the main menu change from page to page</li>
-              <li>The quiz alternates between radio buttons and radioes</li>
-              <li>Inconsistent language is used throughout the quiz and website</li>
-
-            </ul>
-          </p>
-          <br>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card" id="goodConsis">
-        <div class="card-body">
-          <h5 class="card-title">Website #2: Good Consistency</h5>
-          <p class="card-text">
             <div class="page1">
-            <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
+              <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
               <p class="miniText">Welcome to our website!<br><br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. </p><br>
-              <button class="quiz">Take Our Quiz</button><br></div>
-              <div class="page2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </p><br>
+              <button class="quiz">Take Our Quiz</button><br>
+            </div>
+            <div class="page2">
               <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
               <p class="miniText">Take our quiz. Please submit when you're done.<br>
                 <br>
                 <input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label><br>
-<input type="radio" id="female" name="gender" value="female">
-<label for="female">Female</label><br>
-<input type="radio" id="other" name="gender" value="other">
-<label for="other">Other</label><br><br>
-<input type="radio" id="vehicle1" name="vehicle1" value="Bike">
-<label for="vehicle1"> I have a bike</label><br>
-<input type="radio" id="vehicle2" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<input type="radio" id="vehicle3" name="vehicle3" value="Boat">
-<label for="vehicle3"> I have a boat</label><br>
-<button class="quiz">Submit</button><br></div>
-
-
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br>
+                <button class="quiz">Submit</button><br>
             </div>
 
 
-
-            
-            <ul>
-              <li>Main menu design and layout remains the same on all pages</li>
-              <li>Terms and options within the main menu remain the same</li>
-              <li>The quiz uses all radio buttons</li>
-              <li>Language is consistent throughout the quiz and website</li>
-
-            </ul>
-          </p>
         </div>
+
+
+        <ul>
+          <li>Main menu design and layout changes from page to page</li>
+          <li>Terms and options within the main menu change from page to page</li>
+          <li>The quiz alternates between radio buttons and radioes</li>
+          <li>Inconsistent language is used throughout the quiz and website</li>
+
+        </ul>
+        </p>
+        <br>
       </div>
     </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card" id="goodConsis">
+      <div class="card-body">
+        <h5 class="card-title">Website #2: Good Consistency</h5>
+        <p class="card-text">
+          <div class="page1">
+            <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
+            <p class="miniText">Welcome to our website!<br><br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. </p><br>
+            <button class="quiz">Take Our Quiz</button><br>
+          </div>
+          <div class="page2">
+            <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
+            <p class="miniText">Take our quiz. Please submit when you're done.<br>
+              <br>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label><br><br>
+              <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> I have a bike</label><br>
+              <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> I have a car</label><br>
+              <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> I have a boat</label><br>
+              <button class="quiz">Submit</button><br>
+          </div>
+
+
+      </div>
+
+
+
+
+      <ul>
+        <li>Main menu design and layout remains the same on all pages</li>
+        <li>Terms and options within the main menu remain the same</li>
+        <li>The quiz uses all radio buttons</li>
+        <li>Language is consistent throughout the quiz and website</li>
+
+      </ul>
+      </p>
+    </div>
+  </div>
+  </div>
   </div>
   </div>
   </section>
@@ -342,6 +346,82 @@
     <h3>Error Prevention
   </div>
   </h3>
+  <p>Error preventions sounds more technical than it actually is. While it is always important to create a user
+    experience where errors are uncommon,
+    in usability, error prevention does not necessarily mean preventing error. Instead, it means showing your users how
+    fix errors that may pop up or come about when using you're website. These can be simple things like a 404 error or
+    an
+    an error messge pop up.  These are good examples because a user can always research a 404 error to determine its cause and then its solution
+    and an error message pop up would usually give troubleshooting tips. 
+    The example below shows a form of poor error prevention and good error prevention.
+   
+
+    
+
+    <ul>
+
+    </ul>
+  </p>
+  <div class="row">
+      <div class="col-sm-6">
+        <div class="card" id="freedomCard">
+          <div class="card-body">
+            <h5 class="card-title">Website #1: No Error Prevention</h5><br>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Username</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+              <a class="btn btn-primary" id="badlogin">Login</a>
+              </form>
+            <p class="card-text">
+              <ul>
+                <li>No error message appears</li>
+                <li>The user would need to speculate as to why the login is not working (the login button is broken, the webpage doesn't work, my internet is down, etc.)</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" id="freedomCard">
+          <div class="card-body">
+            <h5 class="card-title">Website #2: Good Error Prevention</h5>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Username</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <a class="btn btn-primary" id="login" value="Show Div" onclick="showDiv()" >Login</a>
+              </form><br>
+            <div class="alert alert-warning alert-dismissible fade show" id="errMessage" aria-hidden="true" role="alert"> 
+              <strong>We do not recognize your username and/or password</strong> <br>Please check your login information and try again.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+           
+            <p class="card-text">
+              <ul>
+                <li>Provides a diasgnosis of why the login is not working</li>
+                <li>Makes a suggestion for the user to try troubleshooting</li>
+                <li>Puts the error message in plain language for the basic user to understand</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   </section>
   <!--End Error Prevention Section-->

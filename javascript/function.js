@@ -67,6 +67,10 @@ function myFunction(nav) {
 }
 // End Nav
 
+function showDiv() {
+    document.getElementById('errMessage').style.display = "block";
+ }
+
 
 
 
