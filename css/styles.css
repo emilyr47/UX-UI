@@ -170,3 +170,13 @@ display: inline-block;
       #login {
         color: white;
       }
+
+      .webImg {
+width: 300px;
+height: 150px;
+      }
+
+      .webImg2 {
+        width: 400px;
+        height: 250px;
+      }

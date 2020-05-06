@@ -60,9 +60,11 @@
   </h3>
   <p>Welcome to my Final Digital Project for CI 4312. Throughout this semester, I have taken a special interest in
     usability, and, specifically how human factors impact and interact with the web.
-    This project is centered around the <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">ten
+    This project is centered around the <a href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+      target="target_blank">ten
       heuristics</a> of user interface (UI) design, written and developed by
-    <a href="https://www.nngroup.com/people/jakob-nielsen/">Jakob Nielsen. </a> Each of these ten heuristics plays an
+    <a href="https://www.nngroup.com/people/jakob-nielsen/" target="target_blank">Jakob Nielsen. </a> Each of these ten
+    heuristics plays an
     important role in ensuring accessibility and usability on the web. In this project, I will demonstrate each of
     these ten heuristics
     by explaining them and then providing applicable examples of how they can be exercised in UI design and can
@@ -83,7 +85,7 @@
   <p>Visibility informs users of system status by providing feedback. This could look like a spinning loader as a
     program loads, a progress bar gradually filling during an update,
     or any visual or form of feedback that tells the user that the request is working. A simple example of this is shown
-    in the buttons below.
+    in the buttons below.<br><br> Hover or click on the button in each example.
   </p>
   <div class="row">
     <div class="col-sm-6">
@@ -171,7 +173,8 @@
     control over this means you also have no control for your users if Internet Explorer decides to remove their back
     button.
 
-    The example below shows an example of poor user control and freedom versus great user control and freedom.
+    The example below shows an example of poor user control and freedom versus great user control and freedom.<br><br>
+    Try to close the pop-up in each example.
   </p>
   <div class="row">
     <div class="col-sm-6">
@@ -351,77 +354,83 @@
     in usability, error prevention does not necessarily mean preventing error. Instead, it means showing your users how
     fix errors that may pop up or come about when using you're website. These can be simple things like a 404 error or
     an
-    an error messge pop up.  These are good examples because a user can always research a 404 error to determine its cause and then its solution
-    and an error message pop up would usually give troubleshooting tips. 
-    The example below shows a form of poor error prevention and good error prevention.
-   
+    an error messge pop up. These are good examples because a user can always research a 404 error to determine its
+    cause and then its solution
+    and an error message pop up would usually give troubleshooting tips.
+    The example below shows a form of poor error prevention and good error prevention.<br> <br> Click the "Login" button
+    in each example.
 
-    
+
+
 
     <ul>
 
     </ul>
   </p>
   <div class="row">
-      <div class="col-sm-6">
-        <div class="card" id="freedomCard">
-          <div class="card-body">
-            <h5 class="card-title">Website #1: No Error Prevention</h5><br>
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Username</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-              <a class="btn btn-primary" id="badlogin">Login</a>
-              </form>
-            <p class="card-text">
-              <ul>
-                <li>No error message appears</li>
-                <li>The user would need to speculate as to why the login is not working (the login button is broken, the webpage doesn't work, my internet is down, etc.)</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card" id="freedomCard">
-          <div class="card-body">
-            <h5 class="card-title">Website #2: Good Error Prevention</h5>
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Username</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <a class="btn btn-primary" id="login" value="Show Div" onclick="showDiv()" >Login</a>
-              </form><br>
-            <div class="alert alert-warning alert-dismissible fade show" id="errMessage" aria-hidden="true" role="alert"> 
-              <strong>We do not recognize your username and/or password</strong> <br>Please check your login information and try again.
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <div class="col-sm-6">
+      <div class="card" id="freedomCard">
+        <div class="card-body">
+          <h5 class="card-title">Website #1: No Error Prevention</h5><br>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-           
-            <p class="card-text">
-              <ul>
-                <li>Provides a diasgnosis of why the login is not working</li>
-                <li>Makes a suggestion for the user to try troubleshooting</li>
-                <li>Puts the error message in plain language for the basic user to understand</li>
-              </ul>
-            </p>
-          </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <a class="btn btn-primary" id="badlogin">Login</a>
+          </form>
+          <p class="card-text">
+            <ul>
+              <li>No error message appears</li>
+              <li>The user would need to speculate as to why the login is not working (the login button is broken, the
+                webpage doesn't work, my internet is down, etc.)</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
+    <div class="col-sm-6">
+      <div class="card" id="freedomCard">
+        <div class="card-body">
+          <h5 class="card-title">Website #2: Good Error Prevention</h5>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <a class="btn btn-primary" id="login" value="Show Div" onclick="showDiv()">Login</a>
+          </form><br>
+          <div class="alert alert-warning alert-dismissible fade show" id="errMessage" aria-hidden="true" role="alert">
+            <strong>We do not recognize your username and/or password</strong> <br>Please check your login information
+            and try again.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <p class="card-text">
+            <ul>
+              <li>Provides a diasgnosis of why the login is not working</li>
+              <li>Makes a suggestion for the user to try troubleshooting</li>
+              <li>Puts the error message in plain language for the basic user to understand</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </section>
   <!--End Error Prevention Section-->
@@ -432,9 +441,19 @@
     <section>
   </a><br><br>
   <div class="flexibility">
-    <h3> Flexibility
+    <h3> Flexibility & Efficiency
   </div>
   </h3>
+  <p>In usability, efficiency is an important element. Often efficiency is promoted by flexibility because offering your
+    users flexibility allows them to complete tasks on
+    your website in the most efficient way for them. In this case, efficiency is not always about creating the fastest
+    solution, but more about providing the user with multiple simple, easy-to-use solutions so that they can find the
+    most efficient method for them.
+    In the example below, a website with few search options and little flexibility is shown, while the second example
+    features a website with many options
+    for its users.
+
+  </p>
   </div>
   </section>
   <!--End Flexibility Section-->
@@ -445,9 +464,59 @@
     <section>
   </a><br><br>
   <div class="aesthetic">
-    <h3> Aesthetic
+    <h3> Aesthetic & Minimilistic Design
   </div>
   </h3>
+  <p>Today's web trends feature very minimalistic designs. Information that is lengthy and unesessary should never be
+    included on a website. A website should
+    always be scannable and always feel as though it had "white space to spare." Loading your website with too much
+    content and too much text can easily overwhelm a user
+    and make it difficult for them to navigate your website. Below, is an example of an overflowing website with far too
+    much information and an example of a minimilistic website
+    that aligns with today's aesthetic.
+  </p>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Website #1: Poor Aesthetic & Minimilism</h5>
+          <p class="card-text">
+            <img class="webImg" src="images/badWeb.png"><br><br>
+            <a href="https://www.polygon.com/" target="target_blank" class="btn btn-primary">View Full Website</a>
+
+
+            <ul>
+              <li>Lots of content</li>
+              <li>May be visually trendy, bit not super accessible for screen readers or smaller screen sizes</li>
+              <li>Very little white space</li>
+              <li>Too many bold colors, fonts, and images taking up the screen's full wdith</li>
+
+            </ul>
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Website #1: Poor Aesthetic & Minimilism</h5>
+          <p class="card-text">
+            <img class="webImg" src="images/goodWeb.png"><br><br>
+            <a href="https://authorscanvas.blog/" target="target_blank" class="btn btn-primary">View Full Website</a>
+
+            <ul>
+              <li>Similar gallery style, yet it offers visible white space</li>
+              <li>Friendly to screen readers and smaller screens</li>
+              <li>Gallery does not take up screen's entire width</li>
+              <li>Themed and muted fonts, images, colors, etc.</li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </section>
   <!--End Aesthetic Section-->
@@ -461,6 +530,60 @@
     <h3>Recognize & Diagnose
   </div>
   </h3>
+  <p>While we have already explained what it means to help users out with errors, many developers and designers still do
+    not accomplish
+    this aspect of usability on their websites. The main cause of this is error codes. While error codes can be helpful
+    for identifying problems in certain cases, expecting a user to solve a problem with just an error code is
+    unrealistic.
+    Most error codes these days are easy enough to research and and diagnose, but this requires research on the user's
+    part, which is not their job.
+    Additionally, this requires the user to know how to research the particular code, find an appropriate solution that
+    they understand, and then implement that solution.
+    This is far too many steps to assume of your users. So does this mean no error codes at all? Not necessarily. In
+    many cases, error codes are very helpful, and they can be continued to be used as
+    a diagnostic tool. However, additional information written in plain language should always supplment the error code.
+    Additional descriptions help your user to recognize specific problems and then diagnose them so that they can
+    recover from these errors. The examples below show both a poor error and a good error.
+
+  </p>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Error #1: Poor Error</h5>
+          <img src="images/poorErr.png" class="webImg2">
+          <p class="card-text">
+            <ul>
+              <li>Error code is listed</li>
+              <li>No description</li>
+              <li>No next steps or help imn diagnosis</li>
+              <li>No way to return to previous pages or view more options</li>
+
+            </ul>
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Error #2: Good Error</h5>
+          <img src="images/goodErr.png" class="webImg2">
+          <p class="card-text">
+            <ul>
+              <li>Features an error code</li>
+              <li>Includes a short description explaining what the error code means</li>
+              <li>Specifies potential next steps for diagnosis and recovery</li>
+              <li>Provides additional links that may direct the user to the correct place</li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </section>
   <!--End Recognize & Diagnose Section-->
