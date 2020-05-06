@@ -167,16 +167,23 @@ html {
     width: 100%;
     background-color: #2b7178;
     color: white;
-
-
+    border-color: #2b7178;
   }
 
   #badControl {
     width: 100%;
     background-color: #2b7178;
     color: white;
+    border-color: #2b7178;
+  }
 
+  #control:hover {
+    cursor: pointer;
 
+  } 
+  
+  #badcontrol:hover {
+    cursor: pointer;
   }
 
   .menu2 {
