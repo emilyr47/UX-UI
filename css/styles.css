@@ -88,14 +88,14 @@ a:hover {
   h3 {
     padding-left: 15px;
     margin-left: 15px;
-    color: #17252a;
+    padding-right: 15px;
 
   }
 
   p {
       padding-left: 15px;
       margin-left: 15px;
-      color: #17252a;
+      padding-right: 15px;
 
   }
 
@@ -194,6 +194,7 @@ display: inline-block;
 
   #badConsis, #goodConsis{
     display: inline-block;
+    width: 70%;
       }
 
       #goodErr, #badErr {
@@ -223,8 +224,12 @@ display: inline-block;
         background-color: #293135;
         border-color: #293135;
 
-
       }
+
+    .dark {
+      background-color: #17252a;
+      color: white;
+    }
 
       .webImg {
 width: 300px;
