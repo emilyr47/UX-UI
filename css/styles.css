@@ -201,6 +201,12 @@ display: inline-block;
         display: inline-block;
       }
 
+      .footer {
+        color: white;
+        background-color: #17252a;
+        text-align: center;
+      }
+
       #errMessage {
         background-color: rgba(236, 122, 122, 0.473);
         color: rgb(46, 45, 45);
