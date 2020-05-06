@@ -22,7 +22,12 @@
 
 </head>
 
-<body>
+<body onload="typeWriter()">
+    <script>document.body.className += ' fade-out';
+      $(function () {
+        $('body').removeClass('fade-out');
+      });
+    </script>
   <script>  document.body.className = 'fade';</script>
   <section>
     <div id="nav">
@@ -555,6 +560,18 @@
   <!--End Footer-->
 
   <script>
+
+var i = 0;
+  var txt = 'Hi, I am the web. Thanks for interacting with me';
+  var speed = 50;
+
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("first-words").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
     document.addEventListener("DOMContentLoaded", function (e) {
       document.body.className = '';
     });

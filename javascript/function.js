@@ -5,48 +5,6 @@ function scrollTo(about) {
     location.about = "#about" + about;
 }
 
-function scrollTo(visibility) {
-    location.visibility = "#visibility" + visibility;
-}
-
-function scrollTo(realWorld) {
-    location.realWorld = "#realWorld" + realWorld;
-}
-
-function scrollTo(freedom) {
-    location.freedom = "#freedom" + freedom;
-}
-
-function scrollTo(consistency) {
-    location.consistency = "#consistency" + consistency;
-}
-
-function scrollTo(errorPrev) {
-    location.errorPrev = "#errorPrev" + errorPrev;
-}
-
-function scrollTo(flexibility) {
-    location.flexibility = "#flexibility" + flexibility;
-}
-
-function scrollTo(aesthetic) {
-    location.aesthetic = "#aesthetic" + aesthetic;
-}
-
-function scrollTo(rd) {
-    location.rd = "#rd" + rd;
-}
-
-function scrollTo(doc) {
-    location.doc = "#doc" + doc;
-}
-
-function scrollTo(conclusion) {
-    location.conclusion = "#conclusion" + conclusion;
-}
-//End Scrolling & Sections
-
-
 // Start Nav 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction(nav)};
@@ -70,6 +28,8 @@ function myFunction(nav) {
 function showDiv() {
     document.getElementById('errMessage').style.display = "block";
  }
+
+ 
 
 
 
