@@ -23,6 +23,19 @@ color: white;
 text-align: center;
 }
 
+#arrow:hover {
+color: #17252a;
+}
+
+a {
+  color: #2b7178; 
+}
+
+a:hover {
+  color: #2b7178; 
+
+}
+
 #nav {
     overflow: hidden;
     background-color: #17252a;
@@ -46,6 +59,14 @@ text-align: center;
     
     
   }
+
+  #nav a:hover {
+    color: #3aafa9;
+  }
+
+  #nav a:active {
+    color: #3aafa9;
+  }
   
   /* Page content */
   .content {
@@ -66,28 +87,35 @@ text-align: center;
 
   h3 {
     padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    color: #17252a;
+
   }
 
   p {
       padding-left: 15px;
-      padding-right: 15px;
+      margin-left: 15px;
+      color: #17252a;
+
   }
 
   .card {
     margin-left: 15px;
     margin-right: 15px;
-    border-color: white;
+    border-color: #def2f1;
+    background-color: #def2f1;
   }
 
   #freedomCard {
-    border-color: lightgray;
+    border-color: #def2f1;
+    background-color: #def2f1;
+
     
 
   }
 
   #badButton {
-      background-color: #007bff;
+      background-color: #17252a;
       border-radius: .25rem;
       border: 1px solid transparent;
       padding: .375rem .75rem;
@@ -99,16 +127,34 @@ text-align: center;
   #badButton:hover {
     cursor: default;
     text-decoration: none;
-    background-color: #007bff;
+    background-color: #17252a;
+  }
+
+  #goodVis {
+    background-color: #17252a;
+    border-color: #17252a;
+    
+
+  }
+
+  #goodVis:hover {
+    box-shadow: 10em;
+    color: rgb(238, 231, 231);
+    background-color: #293135;
   }
 
   #control {
     width: 100%;
+    background-color: #2b7178;
+    color: white;
+
 
   }
 
   #badControl {
     width: 100%;
+    background-color: #2b7178;
+    color: white;
 
 
   }
@@ -167,10 +213,17 @@ display: inline-block;
 
       #badlogin {
         color: white;
+        background-color: #293135;
+        border-color: #293135;
+
       }
 
       #login {
         color: white;
+        background-color: #293135;
+        border-color: #293135;
+
+
       }
 
       .webImg {
