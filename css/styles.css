@@ -158,7 +158,7 @@ html {
   }
 
   #goodVis:hover {
-    box-shadow: 10em;
+    box-shadow: 1px 1px 0px 0px #888888;
     color: rgb(238, 231, 231);
     background-color: #293135;
   }
@@ -179,11 +179,13 @@ html {
 
   #control:hover {
     cursor: pointer;
+    box-shadow: 1px 1px 0px 0px #888888;
 
   } 
   
   #badcontrol:hover {
     cursor: pointer;
+    box-shadow: 1px 1px 0px 0px #888888;
   }
 
   .menu2 {
@@ -252,11 +254,23 @@ display: inline-block;
 
       }
 
+      #badlogin:hover {
+        box-shadow: 1px 1px 0px 0px #888888;
+        color: rgb(238, 231, 231);
+        background-color: #293135;
+      }
+
       #login {
         color: white;
         background-color: #293135;
         border-color: #293135;
 
+      }
+
+      #login:hover {
+        box-shadow: 1px 1px 0px 0px #888888;
+        color: rgb(238, 231, 231);
+        background-color: #293135;
       }
 
     .dark {
