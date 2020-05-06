@@ -58,13 +58,13 @@
   <!--End First Words Section-->
   <!--Start About Section-->
   <a name="about"><br>
-    <section class="lightLightGreen">
+    <section class="lightLightGreen" id="dark-font">
   </a><br><br>
   <div class="about">
-    <h3>About
+    <h3 id="dark-font">About
   </div>
   </h3>
-  <p>Welcome to my Final Digital Project for CI 4312. Throughout this semester, I have taken a special interest in
+  <p id="dark-font">Welcome to my Final Digital Project for CI 4312. Throughout this semester, I have taken a special interest in
     usability, and, specifically how human factors impact and interact with the web. Usability relates to how humans
     interact with user interfaces and the web.
     This project is centered around the <a href="https://www.nngroup.com/articles/ten-usability-heuristics/"
@@ -77,8 +77,8 @@
     by explaining them and then providing applicable examples of how they can be exercised in UI design and can
     improve user experience (UX).
   </p><br>
-  <h3>Why is Usability Important?</h3>
-  <p>Usability is what makes websites, apps, and user interfaces easy to use. "Jakob Nielsen's 10 general principles for
+  <h3 id="dark-font">Why is Usability Important?</h3>
+  <p id="dark-font">Usability is what makes websites, apps, and user interfaces easy to use. "Jakob Nielsen's 10 general principles for
     interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability
     guidelines" (<a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="target_blank">Ten Heuristics</a>).
     Usability is becoming a more and more recognized industry as our world moves more and more online.  Making the web intuitive 
@@ -91,11 +91,11 @@
   <a name="visibility"><br>
     <section>
   </a><br><br>
-  <div class="visibility">
+  <div class="visibility" id="light-font">
     <h3>Visibility
   </div>
   </h3>
-  <p>Visibility informs users of system status by providing feedback. This could look like a spinning loader as a
+  <p id="light-font">Visibility informs users of system status by providing feedback. This could look like a spinning loader as a
     program loads, a progress bar gradually filling during an update, or any visual or form of feedback that tells the
     user that the request is working. A simple example of this is shown in the buttons below.<br><br> Hover or click on
     the button in each example.
@@ -108,10 +108,10 @@
           <button id="badButton">Click Me!</button>
           <p class="card-text">
             <ul>
-              <li>No change in cursor on hover</li>
-              <li>No color change in button on hover</li>
-              <li>No text indicating where the button is going or if it is going to where the user wants</li>
-              <li>No link appears on hover</li>
+              <li id="dark-font">No change in cursor on hover</li>
+              <li id="dark-font">No color change in button on hover</li>
+              <li id="dark-font">No text indicating where the button is going or if it is going to where the user wants</li>
+              <li id="dark-font">No link appears on hover</li>
 
             </ul>
           </p>
@@ -121,14 +121,14 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Button #2: Good Visibility & Feedback</h5><br><br>
+          <h5 class="card-title" id="dark-font">Button #2: Good Visibility & Feedback</h5><br><br>
           <a class="btn btn-primary" id="goodVis">Shop Our Collection</a>
           <p class="card-text">
             <ul>
-              <li>Cursor changes to a pointer/hand on hover</li>
-              <li>Button slightly changes color on hover</li>
-              <li>Button text tells the user where the button leads</li>
-              <li>Button's link appears in bottom left corner (location may differ per web browser)</li>
+              <li id="dark-font">Cursor changes to a pointer/hand on hover</li>
+              <li id="dark-font">Button slightly changes color on hover</li>
+              <li id="dark-font">Button text tells the user where the button leads</li>
+              <li id="dark-font">Button's link appears in bottom left corner (location may differ per web browser)</li>
 
             </ul>
           </p>
@@ -146,11 +146,11 @@
   <a name="freedom"><br>
     <section class="lightLightGreen">
   </a><br><br>
-  <div class="freedom">
+  <div class="freedom" id="dark-font">
     <h3> Control & Freedom
   </div>
   </h3>
-  <p>Users may often end up in areas of a website by mistake. They may click a link on accident, open a new window and
+  <p id="dark-font">Users may often end up in areas of a website by mistake. They may click a link on accident, open a new window and
     wish to exit, or just wish to return to a previous page. While most web browsers provide a back button or a default
     escape route, UX/UI designers should never rely on this. First of all, while your code is internal and is great at
     communicating with itself, a web browser is an external application that simply opens your website. Because of this,
@@ -169,7 +169,7 @@
     <div class="col-sm-6">
       <div class="card" id="freedomCard">
         <div class="card-body">
-          <h5 class="card-title">Website #1: No Control or Freedom</h5><br>
+          <h5 class="card-title" id="dark-font">Website #1: No Control or Freedom</h5><br>
           <div class="alert alert-warning" role="alert" id="badControl">
             <strong>Hello!</strong> Sign up for this free offer.
             <button type="button" class="close" data-dismiss="alert">
@@ -177,8 +177,8 @@
           </div>
           <p class="card-text">
             <ul>
-              <li>No way to return to previous pages</li>
-              <li>No way to exit the pop-up</li>
+              <li id="dark-font" >No way to return to previous pages</li>
+              <li id="dark-font">No way to exit the pop-up</li>
             </ul>
           </p>
         </div>
@@ -187,7 +187,7 @@
     <div class="col-sm-6">
       <div class="card" id="freedomCard">
         <div class="card-body">
-          <h5 class="card-title">Website #2: Good Control & Freedom</h5>
+          <h5 class="card-title" id="dark-font">Website #2: Good Control & Freedom</h5>
           <a href="#freedom">home</a> / <a href="#freedom">deals & specials</a> / <a href="#freedom">current
             deals</a><br>
           <div class="alert alert-warning alert-dismissible fade show" id="control" role="alert">
@@ -198,8 +198,8 @@
           </div>
           <p class="card-text">
             <ul>
-              <li>Provides breadcrumbs to return to previous pages</li>
-              <li>Clear way to exit the pop-up</li>
+              <li id="dark-font">Provides breadcrumbs to return to previous pages</li>
+              <li id="dark-font">Clear way to exit the pop-up</li>
             </ul>
           </p>
         </div>
@@ -216,10 +216,10 @@
     <section>
   </a><br><br>
   <div class="consistency">
-    <h3> Consistency
+    <h3 id="light-font"> Consistency
   </div>
   </h3>
-  <p>
+  <p id="light-font">
     "Users should not have to wonder whether different words, situations, or actions mean the same thing" (Nielsen). By
     following <a href="https://www.nngroup.com/articles/do-interface-standards-stifle-design-creativity/">platform
       conventions</a>,
@@ -229,7 +229,7 @@
     <div class="col-lg-6">
       <div class="card" id="badConsis">
         <div class="card-body">
-          <h5 class="card-title">Website #1: Poor Consistency</h5>
+          <h5 class="card-title" id="dark-font">Website #1: Poor Consistency</h5>
           <p class="card-text">
             <div class="page1">
               <div class="menu2">Home | About | Browse | Contact <i class="fas fa-search" id="search"></i></div>
@@ -328,16 +328,16 @@
   </div>
   </section>
   <!--End Consistency Section-->
-
+<br><br><br>
   <!--Start Error Prevention Section-->
   <a name="errorPrev"><br>
-    <section>
+    <section id="Preverror">
   </a><br><br>
   <div class="errorPrev">
-    <h3>Error Prevention
+    <h3 id="light-font">Error Prevention
   </div>
   </h3>
-  <p>Error preventions sounds more technical than it actually is. While it is always important to create a user
+  <p id="light-font">Error preventions sounds more technical than it actually is. While it is always important to create a user
     experience where errors are uncommon, in usability, error prevention does not necessarily mean preventing error.
     Instead, it means showing your users how fix errors that may pop up or come about when using your website. These can
     be simple things like a 404 error or an error message pop up. These are good examples because a user can always
@@ -357,7 +357,7 @@
     <div class="col-sm-6">
       <div class="card" id="freedomCard">
         <div class="card-body">
-          <h5 class="card-title">Website #1: No Error Prevention</h5><br>
+          <h5 class="card-title" id="light-font">Website #1: No Error Prevention</h5><br>
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Username</label>
@@ -373,8 +373,8 @@
           </form>
           <p class="card-text">
             <ul>
-              <li>No error message appears</li>
-              <li>The user would need to speculate as to why the login is not working (the login button is broken, the
+              <li id="light-font">No error message appears</li>
+              <li id="light-font">The user would need to speculate as to why the login is not working (the login button is broken, the
                 webpage doesn't work, my internet is down, etc.)</li>
             </ul>
           </p>
@@ -384,7 +384,7 @@
     <div class="col-sm-6">
       <div class="card" id="freedomCard">
         <div class="card-body">
-          <h5 class="card-title">Website #2: Good Error Prevention</h5>
+          <h5 class="card-title" id="light-font">Website #2: Good Error Prevention</h5>
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Username</label>
@@ -408,9 +408,9 @@
 
           <p class="card-text">
             <ul>
-              <li>Provides a diagnosis of why the login is not working</li>
-              <li>Makes a suggestion for the user to try troubleshooting</li>
-              <li>Puts the error message in plain language for the basic user to understand</li>
+              <li id="light-font">Provides a diagnosis of why the login is not working</li>
+              <li id="light-font" >Makes a suggestion for the user to try troubleshooting</li>
+              <li id="light-font">Puts the error message in plain language for the basic user to understand</li>
             </ul>
           </p>
         </div>
@@ -428,10 +428,10 @@
     <section>
   </a><br><br>
   <div class="aesthetic">
-    <h3> Aesthetic & Minimalistic Design
+    <h3 id="light-font"> Aesthetic & Minimalistic Design
   </div>
   </h3>
-  <p>Today's web trends feature very minimalistic designs. Information that is lengthy and unnecessary should never be
+  <p id="light-font">Today's web trends feature very minimalistic designs. Information that is lengthy and unnecessary should never be
     included on a website. A website should always be scannable and always feel as though it had "white space to spare."
     Loading your website with too much content and too much text can easily overwhelm a user and make it difficult for
     them to navigate your website. Below, is an example of an overflowing website with far too much information and an
@@ -441,7 +441,7 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Website #1: Poor Aesthetic & Minimalism</h5>
+          <h5 class="card-title" id="light-font">Website #1: Poor Aesthetic & Minimalism</h5>
           <p class="card-text">
             <img class="webImg" src="images/badWeb.png"><br><br>
             <a href="https://www.polygon.com/" target="target_blank" class="btn btn-primary" id="login">View Full
@@ -449,10 +449,10 @@
 
 
             <ul>
-              <li>Lots of content</li>
-              <li>May be visually trendy, bit not super accessible for screen readers or smaller screen sizes</li>
-              <li>Very little white space</li>
-              <li>Too many bold colors, fonts, and images taking up the screen's full width</li>
+              <li id="light-font">Lots of content</li>
+              <li id="light-font">May be visually trendy, bit not super accessible for screen readers or smaller screen sizes</li>
+              <li id="light-font">Very little white space</li>
+              <li id="light-font">Too many bold colors, fonts, and images taking up the screen's full width</li>
 
             </ul>
           </p>
@@ -463,17 +463,17 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Website #1: Good Aesthetic & Minimalism</h5>
+          <h5 class="card-title" id="light-font">Website #1: Good Aesthetic & Minimalism</h5>
           <p class="card-text">
             <img class="webImg" src="images/goodWeb.png"><br><br>
             <a href="https://authorscanvas.blog/" target="target_blank" class="btn btn-primary" id="login">View Full
               Website</a>
 
             <ul>
-              <li>Similar gallery style, yet it offers visible white space</li>
-              <li>Friendly to screen readers and smaller screens</li>
-              <li>Gallery does not take up screen's entire width</li>
-              <li>Themed and muted fonts, images, colors, etc.</li>
+              <li id="light-font">Similar gallery style, yet it offers visible white space</li>
+              <li id="light-font">Friendly to screen readers and smaller screens</li>
+              <li id="light-font">Gallery does not take up screen's entire width</li>
+              <li id="light-font">Themed and muted fonts, images, colors, etc.</li>
 
             </ul>
             <br>
@@ -491,10 +491,10 @@
     <section id="rd">
   </a><br><br>
   <div class="rd">
-    <h3>Recognize & Diagnose
+    <h3 id="light-font">Recognize & Diagnose
   </div>
   </h3>
-  <p>While we have already explained what it means to help users out with errors, many developers and designers still do
+  <p id="light-font">While we have already explained what it means to help users out with errors, many developers and designers still do
     not accomplish this aspect of usability on their websites. The main cause of this is error codes. While error codes
     can be helpful for identifying problems in certain cases, expecting a user to solve a problem with just an error
     code is unrealistic. Most error codes these days are easy enough to research and diagnose, but this requires
@@ -512,14 +512,14 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Error #1: Poor Error</h5>
+          <h5 class="card-title" id="light-font">Error #1: Poor Error</h5>
           <img src="images/poorErr.png" class="webImg2">
           <p class="card-text">
             <ul>
-              <li>Error code is listed</li>
-              <li>No description</li>
-              <li>No next steps or help in diagnosis</li>
-              <li>No way to return to previous pages or view more options</li>
+              <li id="light-font">Error code is listed</li>
+              <li id="light-font">No description</li>
+              <li id="light-font">No next steps or help in diagnosis</li>
+              <li id="light-font">No way to return to previous pages or view more options</li>
 
             </ul>
           </p>
@@ -530,14 +530,14 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Error #2: Good Error</h5>
+          <h5 class="card-title" id="light-font">Error #2: Good Error</h5>
           <img src="images/goodErr.png" class="webImg2">
           <p class="card-text">
             <ul>
-              <li>Features an error code</li>
-              <li>Includes a short description explaining what the error code means</li>
-              <li>Specifies potential next steps for diagnosis and recovery</li>
-              <li>Provides additional links that may direct the user to the correct place</li>
+              <li id="light-font">Features an error code</li>
+              <li id="light-font">Includes a short description explaining what the error code means</li>
+              <li id="light-font">Specifies potential next steps for diagnosis and recovery</li>
+              <li id="light-font">Provides additional links that may direct the user to the correct place</li>
 
             </ul>
 
