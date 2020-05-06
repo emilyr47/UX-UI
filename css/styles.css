@@ -132,10 +132,10 @@ html {
   }
 
   .card {
-    margin-left: 15px;
-    margin-right: 15px;
     border-color: #def2f1;
     background-color: #def2f1;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   #freedomCard {
@@ -235,7 +235,12 @@ display: inline-block;
 
   #badConsis, #goodConsis{
     display: inline-block;
-    width: 70%;
+    width: 90%;
+    height: 97%;
+      }
+
+      #badConsis {
+        margin-left: 15px;
       }
 
       #goodErr, #badErr {
