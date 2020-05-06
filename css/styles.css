@@ -1,6 +1,7 @@
 body {
     opacity: 1;
     transition: 0.7s opacity;
+    background-color: #3aa5a9;
   }
   
   body.fade {
@@ -9,7 +10,7 @@ body {
   }
 
 .first-words {
-    color: purple;
+    color: white;
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
@@ -17,13 +18,14 @@ body {
 }
 
 #arrow {
-    float: center;
-    color: purple;
+align-items: center;
+color: white;
+text-align: center;
 }
 
 #nav {
     overflow: hidden;
-    background-color: grey;
+    background-color: #17252a;
     color: white;
     position: fixed;
     top: 0;
@@ -179,4 +181,8 @@ height: 150px;
       .webImg2 {
         width: 400px;
         height: 250px;
+      }
+
+      .lightLightGreen {
+        background-color:#def2f1;
       }
