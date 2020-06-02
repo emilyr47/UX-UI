@@ -23,6 +23,15 @@ function myFunction(nav) {
     nav.classList.remove("sticky");
   }
 }
+
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
 // End Nav
 
 function showDiv() {

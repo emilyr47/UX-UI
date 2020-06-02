@@ -47,6 +47,19 @@ a:hover {
   color: #2b7178; 
 
 }
+.nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 #nav {
     overflow: hidden;
@@ -115,6 +128,16 @@ html {
 	html {
 		scroll-behavior: auto;
 	}
+}
+
+@media only screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  .icon {
+    text-align: right;
+  }
 }
 
   h3 {
